@@ -32,7 +32,7 @@ app.get('/',function(req,res){
      if (error) throw error;
      
      responseStr = '';
-
+//GarimaPandita
      results.forEach(function(data){
         responseStr += data.ITEM_NAME + ' : ';
         console.log(data);
