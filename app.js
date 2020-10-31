@@ -41,6 +41,8 @@ app.get('/',function(req,res){
      if(responseStr.length == 0)
         responseStr = 'No records found';
 
+        //This is a change 
+
      console.log(responseStr);
 
      res.status(200).send(responseStr);
